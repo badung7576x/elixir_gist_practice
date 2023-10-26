@@ -18,7 +18,7 @@ Checklist:
 - [x] Introduction to Kickstart Your Elixir Journey
 - [x] Part 1: Project Design
 - [x] Part 2: Setting Up and User Authentication
-- [ ] Part 3: Generating Our Schemas
+- [x] Part 3: Generating Our Schemas
 - [ ] Part 4: Crafting the Navigation Bar
 - [ ] Part 5: Animating Dropdown Menu with JS.toggle
 - [ ] Part 5b: Collapsing Dropdown Menu
@@ -29,25 +29,57 @@ Checklist:
 - [ ] Part 10: Adding Line Count Feature
 - [ ] Part 11: Sync Scrolling Between Textareas
 
+### Database Design
+
+![Database Design](/readme_images/database.png)
 
 ### Develop notes
 
-1. Create project
+#### 1. Create project
 
-```
+```bash
 $ mix phx.new elixir_gist --binary-id
 ```
 
-2. Add authentication with `phx.gen.auth`
+#### 2. Add authentication with `phx.gen.auth`
 
-```
+```bash
 $ mix phx.gen.auth Accounts User users
 $ mix deps.get
 $ mix ecto.setup
 ```
 
-3. Run server
+#### 3. Run server
 
-```
+```bash
 $ mix phx.server
 ```
+
+#### 4. Create context
+
+Command: 
+
+```bash
+$ mix phx.gen.context <Context> <Schema> <table> <fields>
+```
+
+Read more about context: https://hexdocs.pm/phoenix/Mix.Tasks.Phx.Gen.Context.html
+
+Contexts: The context is an Elixir module that serves as an API boundary for the given resource. <br>
+Schema: The schema is responsible for mapping the database fields into an Elixir struct.
+
+Read more about schema: https://hexdocs.pm/ecto/Ecto.Schema.html <br>
+-> Change relationship in schema. 
+
+```bash
+# Table gists
+$ mix phx.gen.context Gists Gist gists user_id:references:users name:string description:text markup_text:text
+$ mix phx.gen.context Gists SavedGist saved_gists user_id:references:users gist_id:references:gists
+$ mix phx.gen.context Comments Comment comments user_id:references:users gist_id:references:gists markup_text:text
+$ mix ecto.migrate
+```
+
+
+
+
+
