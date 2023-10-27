@@ -20,7 +20,7 @@ Checklist:
 - [x] Part 2: Setting Up and User Authentication
 - [x] Part 3: Generating Our Schemas
 - [x] Part 4: Crafting the Navigation Bar
-- [ ] Part 5: Animating Dropdown Menu with JS.toggle
+- [x] Part 5: Animating Dropdown Menu with JS.toggle
 - [ ] Part 5b: Collapsing Dropdown Menu
 - [ ] Part 6: Creating the Footer
 - [ ] Part 7: Crafting the 'Create Gist' View
