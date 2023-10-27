@@ -22,7 +22,7 @@ Checklist:
 - [x] Part 4: Crafting the Navigation Bar
 - [x] Part 5: Animating Dropdown Menu with JS.toggle
 - [x] Part 5b: Collapsing Dropdown Menu (when click outside menu)
-- [ ] Part 6: Creating the Footer
+- [x] Part 6: Creating the Footer
 - [ ] Part 7: Crafting the 'Create Gist' View
 - [ ] Part 8: Form Creation with LiveView and HEEx
 - [ ] Part 9: Form Validation and Database Persistence
