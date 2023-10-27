@@ -21,7 +21,7 @@ Checklist:
 - [x] Part 3: Generating Our Schemas
 - [x] Part 4: Crafting the Navigation Bar
 - [x] Part 5: Animating Dropdown Menu with JS.toggle
-- [ ] Part 5b: Collapsing Dropdown Menu
+- [x] Part 5b: Collapsing Dropdown Menu (when click outside menu)
 - [ ] Part 6: Creating the Footer
 - [ ] Part 7: Crafting the 'Create Gist' View
 - [ ] Part 8: Form Creation with LiveView and HEEx
