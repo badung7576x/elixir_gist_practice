@@ -19,7 +19,7 @@ Checklist:
 - [x] Part 1: Project Design
 - [x] Part 2: Setting Up and User Authentication
 - [x] Part 3: Generating Our Schemas
-- [ ] Part 4: Crafting the Navigation Bar
+- [x] Part 4: Crafting the Navigation Bar
 - [ ] Part 5: Animating Dropdown Menu with JS.toggle
 - [ ] Part 5b: Collapsing Dropdown Menu
 - [ ] Part 6: Creating the Footer
