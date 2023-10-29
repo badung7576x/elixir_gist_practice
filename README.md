@@ -23,7 +23,7 @@ Checklist:
 - [x] Part 5: Animating Dropdown Menu with JS.toggle
 - [x] Part 5b: Collapsing Dropdown Menu (when click outside menu)
 - [x] Part 6: Creating the Footer
-- [ ] Part 7: Crafting the 'Create Gist' View
+- [x] Part 7: Crafting the 'Create Gist' View
 - [ ] Part 8: Form Creation with LiveView and HEEx
 - [ ] Part 9: Form Validation and Database Persistence
 - [ ] Part 10: Adding Line Count Feature
