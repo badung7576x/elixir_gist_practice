@@ -24,7 +24,7 @@ Checklist:
 - [x] Part 5b: Collapsing Dropdown Menu (when click outside menu)
 - [x] Part 6: Creating the Footer
 - [x] Part 7: Crafting the 'Create Gist' View
-- [ ] Part 8: Form Creation with LiveView and HEEx
+- [x] Part 8: Form Creation with LiveView and HEEx
 - [ ] Part 9: Form Validation and Database Persistence
 - [ ] Part 10: Adding Line Count Feature
 - [ ] Part 11: Sync Scrolling Between Textareas
