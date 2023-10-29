@@ -27,7 +27,7 @@ Checklist:
 - [x] Part 8: Form Creation with LiveView and HEEx
 - [ ] Part 9: Form Validation and Database Persistence
 - [x] Part 10: Adding Line Count Feature
-- [ ] Part 11: Sync Scrolling Between Textareas
+- [x] Part 11: Sync Scrolling Between Textareas
 
 ### Database Design
 
